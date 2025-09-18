@@ -231,6 +231,58 @@ h2{
     padding-bottom: 50px;
 }
 
+.card {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 10px;
+    display: block;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#results {
+    background-color: var(--blue);
+    color: var(--white);
+    padding-bottom: 30px;
+}
+
+#results h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 30px 20px;
+}
+
+table {
+    margin: auto;
+}
+
+tr:nth-child(even) {
+    background-color: var(--black);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--charcoal);
+}
+
+th {
+    background-color: var(--black);
+    font-weight: bold;
+}
+
+th, td{
+    border: 1px solid var(--charcoal);
+    text-align: center;
+    padding: 10px 30px;
+}
+
+
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
@@ -277,6 +329,19 @@ h2{
     animation: stepUp 1s ease-in-out forwards;
 }
 
+#contact {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+p {
+    padding: 0 10px;
+}
 
 /* MEDIA QUERIES (MEDIUM) */ 
 
