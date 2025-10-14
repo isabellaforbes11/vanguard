@@ -14,6 +14,20 @@
 </head>
 
 <body>
+
+    <div class="disclaimer-overlay" id="disclaimerOverlay">
+        <div class="disclaimer-popup">
+            <h2>DISCLAIMER</h2>
+            <p>
+                THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. 
+                This is NOT the official site of the company or brand identified on the page. 
+                The creator of this page is NOT affiliated with the company or brand in any way. 
+                This page is a personal project made in connection with an educational exercise.
+            </p>
+            <button class="disclaimer-button" onclick="closeDisclaimer()">I Understand</button>
+        </div>
+    </div>
+
     <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
     <header>
         <h1>Vaanguard</h1>
@@ -180,5 +194,9 @@
         <p>Phone: 480.123.4567</p>
         <p>DISCLAIMER: THIS PAGE WAS MADE AS A PERSONAL EDUCATIONAL PROJECT. This is NOT the official site of the company or brand identified on the page. The creator of this page is NOT affiliated with the company or brand in any way. This page is a personal project made in connection with an educational exercise.</p>
     
-
+<script>
+        function closeDisclaimer() {
+            document.getElementById('disclaimerOverlay').classList.add('hidden');
+        }
+    </script>
 </body>
